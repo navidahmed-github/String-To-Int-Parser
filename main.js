@@ -1,6 +1,3 @@
-// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
-    
 function stringToInt(s) {
     let r = 0;
     let arrLength = s.length-1;
