@@ -35,6 +35,8 @@ function stringToInt(s) {
             case ("9"):
                 r += 9*(Math.pow(10, change));
                 break;
+            default:
+                console.log("String contains an invalid entry and is not a 0-9 character");
         }
     }
     return r;
